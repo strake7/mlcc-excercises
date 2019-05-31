@@ -2,7 +2,7 @@
 **Training set** — a subset to train a model.
 
 **Test set** — a subset to test the trained model.
-
+`
 The two partition approach the workflow to train a model could look as follows:
 ![FLAWED](https://developers.google.com/machine-learning/crash-course/images/WorkflowWithTestSet.svg)
 The issue with this approach is that it is implicitly overfit to the peculiarities of the test set.
