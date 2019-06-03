@@ -18,4 +18,4 @@ Another common example is coordinates
 This feature cross is a 25-element one-hot vector (24 zeroes and 1 one). The single 1 in the cross identifies a particular conjunction of latitude and longitude
 
 ## Why?
-Enable a model to fit nonlinear data
+Enable a model to fit nonlinear data. Provide a way to graph data for two correlated bins. 
