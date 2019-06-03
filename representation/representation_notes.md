@@ -47,7 +47,7 @@ Check the distribution of features for long tails.
 ![alt](https://developers.google.com/machine-learning/crash-course/images/ScalingNoticingOutliers.svg)
 
 #### How to eliminate?
-- Take the logarithmic of the feature. Check distribution againagain
+- Take the logarithmic of the feature. Check distribution again
 - Cap the maximum value. Clipping the feature value at 4.0 doesn't mean that we ignore all values greater than 4.0. Rather, it means that all values that were greater than 4.0 now become 4.0.
 
 
