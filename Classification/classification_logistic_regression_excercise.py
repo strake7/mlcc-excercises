@@ -28,7 +28,7 @@ california_housing_dataframe = california_housing_dataframe.reindex(
 
 # Frame the Problem as Binary Classification - is highcost? >265000
 def preprocess_features(california_housing_dataframe):
-  """Prepares input features from California housing data set.
+  `"""Prepares input features from California housing data set.
 
   Args:
     california_housing_dataframe: A Pandas DataFrame expected to contain data
@@ -36,7 +36,7 @@ def preprocess_features(california_housing_dataframe):
   Returns:
     A DataFrame that contains the features to be used for the model, including
     synthetic features.
-  """
+  `"""
   selected_features = california_housing_dataframe[
     ["latitude",
      "longitude",
@@ -183,7 +183,7 @@ def train_linear_regressor_model(
                                                     shuffle=False)
 
   # Train the model, but do so inside a loop so that we can periodically assess
-  # loss metrics.
+  # loss metrics. 
   print("Training model...")
   print("RMSE (on training data):")
   training_rmse = []

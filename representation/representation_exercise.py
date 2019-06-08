@@ -1,3 +1,4 @@
+#%%
 from __future__ import print_function
 
 import math
@@ -250,6 +251,7 @@ def train_model(
 
   return linear_regressor
 
+#%%
 _ = train_model(
     learning_rate=0.01,
     steps=500,
